@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2015
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Run Doris Run!.CSharp", "Run Doris Run!.CSharp.csproj", "{877FDF97-D0FA-2768-C979-DFDD4FCB2D0C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Run Doris Run!.CSharp.Editor", "Run Doris Run!.CSharp.Editor.csproj", "{DA096366-D307-C372-C327-9E5751258164}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{877FDF97-D0FA-2768-C979-DFDD4FCB2D0C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{877FDF97-D0FA-2768-C979-DFDD4FCB2D0C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{877FDF97-D0FA-2768-C979-DFDD4FCB2D0C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{877FDF97-D0FA-2768-C979-DFDD4FCB2D0C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DA096366-D307-C372-C327-9E5751258164}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DA096366-D307-C372-C327-9E5751258164}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DA096366-D307-C372-C327-9E5751258164}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DA096366-D307-C372-C327-9E5751258164}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
