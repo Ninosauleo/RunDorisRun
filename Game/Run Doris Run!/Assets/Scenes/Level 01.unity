@@ -37,7 +37,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.18359146, g: 0.22727087, b: 0.2949618, a: 1}
+  m_IndirectSpecularColor: {r: 0.18359162, g: 0.22727029, b: 0.29496077, a: 1}
 --- !u!157 &3
 LightmapSettings:
   m_ObjectHideFlags: 0
@@ -224,7 +224,7 @@ Transform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 7
+  m_RootOrder: 6
 --- !u!1 &258773928 stripped
 GameObject:
   m_PrefabParentObject: {fileID: 100000, guid: 7e251f577bf454fa08935a14ea4082df, type: 3}
@@ -241,60 +241,6 @@ MeshCollider:
   serializedVersion: 2
   m_Convex: 0
   m_Mesh: {fileID: 4300000, guid: 7e251f577bf454fa08935a14ea4082df, type: 3}
---- !u!1001 &310568188
-Prefab:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 400000, guid: ec629ba0929144d7aba272a5103d7248, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: -2.57
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: ec629ba0929144d7aba272a5103d7248, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 3.23
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: ec629ba0929144d7aba272a5103d7248, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 27.84
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: ec629ba0929144d7aba272a5103d7248, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: -0.7071068
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: ec629ba0929144d7aba272a5103d7248, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: ec629ba0929144d7aba272a5103d7248, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: ec629ba0929144d7aba272a5103d7248, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 0.7071068
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: ec629ba0929144d7aba272a5103d7248, type: 3}
-      propertyPath: m_RootOrder
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: ec629ba0929144d7aba272a5103d7248, type: 3}
-      propertyPath: m_LocalScale.x
-      value: 0.40033978
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: ec629ba0929144d7aba272a5103d7248, type: 3}
-      propertyPath: m_LocalScale.y
-      value: 0.4003396
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: ec629ba0929144d7aba272a5103d7248, type: 3}
-      propertyPath: m_LocalScale.z
-      value: 0.4003396
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_ParentPrefab: {fileID: 100100000, guid: ec629ba0929144d7aba272a5103d7248, type: 3}
-  m_IsPrefabParent: 0
 --- !u!1001 &361982538
 Prefab:
   m_ObjectHideFlags: 0
@@ -451,7 +397,7 @@ Transform:
   m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_RootOrder: 4
 --- !u!1 &592164276 stripped
 GameObject:
   m_PrefabParentObject: {fileID: 100000, guid: 7e251f577bf454fa08935a14ea4082df, type: 3}
@@ -505,7 +451,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4000011370936230, guid: c7fa8f89cf8e34a828acb744918e0810, type: 2}
       propertyPath: m_RootOrder
-      value: 6
+      value: 5
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: c7fa8f89cf8e34a828acb744918e0810, type: 2}
@@ -655,22 +601,6 @@ MeshCollider:
   serializedVersion: 2
   m_Convex: 0
   m_Mesh: {fileID: 4300000, guid: 7e251f577bf454fa08935a14ea4082df, type: 3}
---- !u!1 &984591450 stripped
-GameObject:
-  m_PrefabParentObject: {fileID: 100000, guid: ec629ba0929144d7aba272a5103d7248, type: 3}
-  m_PrefabInternal: {fileID: 310568188}
---- !u!64 &984591451
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 984591450}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Convex: 0
-  m_Mesh: {fileID: 4300000, guid: ec629ba0929144d7aba272a5103d7248, type: 3}
 --- !u!1001 &1110295773
 Prefab:
   m_ObjectHideFlags: 0
@@ -770,7 +700,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: fd2d91ec0ff2948669bf7b07ea1ba5be, type: 3}
       propertyPath: m_RootOrder
-      value: 9
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: fd2d91ec0ff2948669bf7b07ea1ba5be, type: 3}
       propertyPath: m_LocalScale.x
@@ -840,7 +770,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 409160, guid: ad67cddd729fb4342be2063a3f5ad7cc, type: 2}
       propertyPath: m_RootOrder
-      value: 4
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 10875500, guid: ad67cddd729fb4342be2063a3f5ad7cc, type: 2}
       propertyPath: m_Color.r
@@ -960,7 +890,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 2f777094264d24c4194af86f565b91de, type: 3}
       propertyPath: m_RootOrder
-      value: 3
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 100000, guid: 2f777094264d24c4194af86f565b91de, type: 3}
       propertyPath: m_Layer
@@ -1151,7 +1081,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: a73369fd2d7f2440aafba7a035281872, type: 3}
       propertyPath: m_RootOrder
-      value: 8
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: a73369fd2d7f2440aafba7a035281872, type: 3}
       propertyPath: m_LocalScale.x
@@ -1205,7 +1135,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 7e251f577bf454fa08935a14ea4082df, type: 3}
       propertyPath: m_RootOrder
-      value: 2
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 100000, guid: 7e251f577bf454fa08935a14ea4082df, type: 3}
       propertyPath: m_Layer
