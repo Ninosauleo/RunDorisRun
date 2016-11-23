@@ -37,7 +37,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.18359146, g: 0.22727087, b: 0.2949618, a: 1}
+  m_IndirectSpecularColor: {r: 0.18359162, g: 0.22727029, b: 0.29496077, a: 1}
 --- !u!157 &3
 LightmapSettings:
   m_ObjectHideFlags: 0
@@ -225,6 +225,52 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 6
+--- !u!1001 &198426573
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 4000011569342044, guid: 0e0426bc15e33432681859b0fb6b85ce, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: -2.78
+      objectReference: {fileID: 0}
+    - target: {fileID: 4000011569342044, guid: 0e0426bc15e33432681859b0fb6b85ce, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4000011569342044, guid: 0e0426bc15e33432681859b0fb6b85ce, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 11.93
+      objectReference: {fileID: 0}
+    - target: {fileID: 4000011569342044, guid: 0e0426bc15e33432681859b0fb6b85ce, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4000011569342044, guid: 0e0426bc15e33432681859b0fb6b85ce, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4000011569342044, guid: 0e0426bc15e33432681859b0fb6b85ce, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4000011569342044, guid: 0e0426bc15e33432681859b0fb6b85ce, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4000011569342044, guid: 0e0426bc15e33432681859b0fb6b85ce, type: 2}
+      propertyPath: m_RootOrder
+      value: 12
+      objectReference: {fileID: 0}
+    - target: {fileID: 1000011079902818, guid: 0e0426bc15e33432681859b0fb6b85ce, type: 2}
+      propertyPath: m_Name
+      value: EnemyRigAnimated (1)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 0e0426bc15e33432681859b0fb6b85ce, type: 2}
+  m_IsPrefabParent: 0
 --- !u!1 &213892867
 GameObject:
   m_ObjectHideFlags: 0
