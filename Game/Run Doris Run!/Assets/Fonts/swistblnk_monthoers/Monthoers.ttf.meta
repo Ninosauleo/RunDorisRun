@@ -1,0 +1,21 @@
+fileFormatVersion: 2
+guid: c933a1459555a4b5086c902e18366f5c
+timeCreated: 1479904395
+licenseType: Free
+TrueTypeFontImporter:
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontNames:
+  - Swistblnk Monthoers
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: c7597bec0a8314b618d25e6c2762d984, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
