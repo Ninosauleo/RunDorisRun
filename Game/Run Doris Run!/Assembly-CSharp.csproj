@@ -45,8 +45,6 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\LoadOptions.cs" />
-     <Compile Include="Assets\LoadPlayGame.cs" />
      <Compile Include="Assets\MQTT\scripts\Exceptions\MqttClientException.cs" />
      <Compile Include="Assets\MQTT\scripts\Exceptions\MqttCommunicationException.cs" />
      <Compile Include="Assets\MQTT\scripts\Exceptions\MqttConnectionException.cs" />
@@ -81,17 +79,12 @@
      <Compile Include="Assets\MQTT\scripts\Utility\QueueExtension.cs" />
      <Compile Include="Assets\MQTT\scripts\Utility\Trace.cs" />
      <Compile Include="Assets\MQTT\scripts\test\mqttTest.cs" />
-     <Compile Include="Assets\PieMenu\Scenes\TestScripts\MenuItemActions_3.cs" />
-     <Compile Include="Assets\PieMenu\Scenes\TestScripts\MenuItemActions_5.cs" />
-     <Compile Include="Assets\PieMenu\Scripts\PieMenu.cs" />
-     <Compile Include="Assets\PieMenu\Scripts\PieMenuManager.cs" />
      <Compile Include="Assets\Scripts\Camera\CameraFollow.cs" />
      <Compile Include="Assets\Scripts\Enemy\EnemyAttack.cs" />
      <Compile Include="Assets\Scripts\Enemy\EnemyHealth.cs" />
      <Compile Include="Assets\Scripts\Enemy\EnemyMovement.cs" />
      <Compile Include="Assets\Scripts\Managers\EnemyManager.cs" />
      <Compile Include="Assets\Scripts\Managers\GameOverManager.cs" />
-     <Compile Include="Assets\Scripts\Managers\LoadMainMenu.cs" />
      <Compile Include="Assets\Scripts\Managers\ScoreManager.cs" />
      <Compile Include="Assets\Scripts\Player\PlayerHealth.cs" />
      <Compile Include="Assets\Scripts\Player\PlayerMovement.cs" />
