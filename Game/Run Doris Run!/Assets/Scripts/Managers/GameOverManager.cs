@@ -36,6 +36,7 @@ public class GameOverManager : MonoBehaviour
     void Awake()
     {
         anim = GetComponent<Animator>();
+
     }
 
 
@@ -43,8 +44,9 @@ public class GameOverManager : MonoBehaviour
     {
         if (playerHealth.currentHealth <= 0)
         {
-            anim.SetTrigger("GameOver");
-            int score = ScoreManager.score;
+			anim.SetTrigger("GameOver");
+			int score = ScoreManager.score;
+          
             scoreJson = "{\"Score_ID\": \"" + playerTag + "\"" +
                        ",\"Score\": " + score +
                          ",\"Player_ID\": \"" + 111 + "\"" +

@@ -21,6 +21,8 @@ public class PlayerHealth : MonoBehaviour
 	bool damaged;                                               // True when the player gets damaged.
 
 
+
+
 	void Awake ()
 	{
 		// Setting up the references.
@@ -84,6 +86,9 @@ public class PlayerHealth : MonoBehaviour
 
 		// Turn off any remaining shooting effects.
 		playerShooting.DisableEffects ();
+		// Added by Nino Sauleo and Aseel Naji.
+		playerShooting.DisableSound ();
+
 
 		// Tell the animator that the player is dead.
 		anim.SetTrigger ("Die");

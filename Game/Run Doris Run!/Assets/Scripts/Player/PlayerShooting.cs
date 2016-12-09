@@ -17,7 +17,6 @@ public class PlayerShooting : MonoBehaviour
     Light gunLight;
     float effectsDisplayTime = 0.2f;
 
-
     void Awake ()
     {
         shootableMask = LayerMask.GetMask ("Shootable");
@@ -46,10 +45,19 @@ public class PlayerShooting : MonoBehaviour
 
     public void DisableEffects ()
     {
+
+		
         gunLine.enabled = false;
         gunLight.enabled = false;
     }
 
+	//added by Antonino Sauleo and Aseel Naji
+	public void DisableSound ()
+	{
+		gunAudio.volume = 0;
+
+	}
+	//end of new code
 
     void Shoot ()
     {

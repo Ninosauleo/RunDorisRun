@@ -77,4 +77,5 @@ public class EnemyHealth : MonoBehaviour
         ScoreManager.score += scoreValue;
         Destroy (gameObject, 2f);
     }
+
 }

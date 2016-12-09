@@ -73,6 +73,12 @@ namespace CompleteProject
             gunLight.enabled = false;
         }
 
+		//added by Antonino Sauleo and Aseel Naji
+		public void DisableSound ()
+		{
+			gunAudio.enabled = false;
+		}
+		//end of new code
 
         void Shoot ()
         {
