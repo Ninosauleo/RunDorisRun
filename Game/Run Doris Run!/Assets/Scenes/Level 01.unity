@@ -773,7 +773,7 @@ MonoBehaviour:
   m_CancelButton: Cancel
   m_InputActionsPerSecond: 10
   m_RepeatDelay: 0.5
-  m_ForceModuleActive: 0
+  m_ForceModuleActive: 1
 --- !u!114 &213892869
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1146,15 +1146,15 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 279084185}
-        m_MethodName: RestartLevel
+      - m_Target: {fileID: 1687000637}
+        m_MethodName: ClickTest
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: 
+          m_StringArgument: hello
           m_BoolArgument: 0
         m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
@@ -1200,9 +1200,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 279084180}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c1fb0bf74784e41cbbfcaa3c315f14c1, type: 3}
+  m_Script: {fileID: -1862395651, guid: f5f67c52d1564df4a8936ccd202a3bd8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  m_Delegates: []
+  delegates: []
 --- !u!1001 &280987531
 Prefab:
   m_ObjectHideFlags: 0
@@ -5605,7 +5607,7 @@ CanvasGroup:
   m_Enabled: 1
   m_Alpha: 1
   m_Interactable: 1
-  m_BlocksRaycasts: 0
+  m_BlocksRaycasts: 1
   m_IgnoreParentGroups: 0
 --- !u!114 &1207491893
 MonoBehaviour:
@@ -7575,6 +7577,7 @@ GameObject:
   - 124: {fileID: 1687000632}
   - 81: {fileID: 1687000631}
   - 114: {fileID: 1687000636}
+  - 114: {fileID: 1687000637}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -7663,6 +7666,18 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   target: {fileID: 654542787}
   smoothing: 5
+--- !u!114 &1687000637
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1687000630}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c1fb0bf74784e41cbbfcaa3c315f14c1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  yourButton: {fileID: 279084182}
 --- !u!1001 &1763935352
 Prefab:
   m_ObjectHideFlags: 0
